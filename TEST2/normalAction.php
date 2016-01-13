@@ -1,8 +1,8 @@
 <?php
-$SType=$_POST['SType'];
-$SArea=$_POST['SArea'];
-$SDate=$_POST['SDate'];
-$STime=$_POST['STime'];
+$SType= htmlspecialchars($_POST['SType']);
+$SArea= htmlspecialchars($_POST['SArea']);
+$SDate= htmlspecialchars($_POST['SDate']);
+$STime= htmlspecialchars($_POST['STime']);
 
 $db_host='127.0.0.1';
 $db_name='bg2015';
